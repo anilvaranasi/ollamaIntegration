@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Ollama Integration</name>
+        <order/>
+        <roles>x_snc_ollama_genai.ollama_prompt_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 13:45:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad8eaef1804202107f44b32beae7c512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ollama Integration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_ui_application_ad8eaef1804202107f44b32beae7c512</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 13:45:07</sys_updated_on>
+    </sys_ui_application>
+</record_update>
