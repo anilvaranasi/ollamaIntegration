@@ -1,4 +1,6 @@
 **ServiceNow GENAI solution using Ollama API**
+![image](https://github.com/anilvaranasi/ollamaIntegration/assets/29941323/1257c6a9-ee2f-4d0e-a80e-3a4c25b2b237)
+
 Ollama provides a way to locally run LLM (large language models), using this approach it is possible to interact with a LLM from Servicenow midserver and inturn integrate with ServiceNow platform, in this post I am going to provide steps involved in this implementation.
 Download and install Ollama on Midserver
 Full list of instructions are provided here ollama/README.md at main · ollama/ollama · GitHub
