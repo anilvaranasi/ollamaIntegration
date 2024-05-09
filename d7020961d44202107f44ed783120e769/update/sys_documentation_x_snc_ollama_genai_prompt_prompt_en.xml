@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-08 11:15:30</sys_created_on>
-            <sys_id>48b2c52dd44202107f44ed783120e727</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Prompt</sys_name>
             <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>

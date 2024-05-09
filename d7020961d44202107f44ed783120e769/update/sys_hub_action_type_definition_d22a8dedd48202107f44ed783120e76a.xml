@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>callolllamaserver</internal_name>
         <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
@@ -26,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d22a8dedd48202107f44ed783120e76a</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>CallOlllamaServer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
@@ -34,7 +37,7 @@
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d22a8dedd48202107f44ed783120e76a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:00:56</sys_updated_on>
+        <sys_updated_on>2024-05-09 16:27:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1050,7 +1053,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fd9a8561d4c202107f44ed783120e7af^sys_idNOT IN4eb0ba39804202107f44b32beae7c597"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-05-08 11:50:02">fd9a8561d4c202107f44ed783120e7af</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-05-08 04:50:02">fd9a8561d4c202107f44ed783120e7af</action_status_metadata_id>
         <condition>{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}!=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Response is not 200</label>
@@ -1077,11 +1080,11 @@
         <sys_created_on>2024-05-09 13:54:42</sys_created_on>
         <sys_id>3db0ba39804202107f44b32beae7c543</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prompttable</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_prompttable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:42</sys_updated_on>
         <url/>
@@ -1100,11 +1103,11 @@
         <sys_created_on>2024-05-08 14:42:19</sys_created_on>
         <sys_id>6d02b9e1d40a02107f44ed783120e732</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>requestbody</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_requestbody_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 14:42:19</sys_updated_on>
         <url/>
@@ -1123,11 +1126,11 @@
         <sys_created_on>2024-05-09 13:54:43</sys_created_on>
         <sys_id>b5b0ba39804202107f44b32beae7c547</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>promptsysid</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_promptsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:43</sys_updated_on>
         <url/>
@@ -1148,11 +1151,11 @@
         <sys_created_on>2024-05-08 11:59:24</sys_created_on>
         <sys_id>36bc41e5d4c202107f44ed783120e712</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 11:59:24</sys_updated_on>
         <url/>
@@ -1171,11 +1174,11 @@
         <sys_created_on>2024-05-08 11:59:24</sys_created_on>
         <sys_id>f2bc41e5d4c202107f44ed783120e700</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 11:59:24</sys_updated_on>
         <url/>
@@ -1204,11 +1207,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>callolllamaserver</internal_name>
         <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master>true</master>
@@ -2232,7 +2238,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3dcd26b1804202107f44b32beae7c53f^sys_idNOT INba9dcf31804602107f44b32beae7c5ae"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-05-09 13:41:52">3dcd26b1804202107f44b32beae7c53f</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-05-09 06:41:52">3dcd26b1804202107f44b32beae7c53f</action_status_metadata_id>
         <condition>{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}!=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Response is not 200</label>
@@ -2259,11 +2265,11 @@
         <sys_created_on>2024-05-09 13:54:45</sys_created_on>
         <sys_id>2ab0fa39804202107f44b32beae7c54a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>promptsysid</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_promptsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
         <url/>
@@ -2282,11 +2288,11 @@
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>31cd26b1804202107f44b32beae7c519</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>requestbody</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_requestbody_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
         <url/>
@@ -2305,11 +2311,11 @@
         <sys_created_on>2024-05-09 13:54:45</sys_created_on>
         <sys_id>aeb0fa39804202107f44b32beae7c546</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>prompttable</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_prompttable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
         <url/>
@@ -2330,11 +2336,11 @@
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>35cd26b1804202107f44b32beae7c53b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
         <url/>
@@ -2353,11 +2359,11 @@
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>b5cd26b1804202107f44b32beae7c536</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
         <url/>

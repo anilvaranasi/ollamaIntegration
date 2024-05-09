@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23a2452dd44202107f44ed783120e7ce" label="Prompt" max_length="40" name="x_snc_ollama_genai_prompt" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prompt" max_length="4000" name="prompt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Response" max_length="4000" name="response" type="string"/>
+    </element>
+</database>
