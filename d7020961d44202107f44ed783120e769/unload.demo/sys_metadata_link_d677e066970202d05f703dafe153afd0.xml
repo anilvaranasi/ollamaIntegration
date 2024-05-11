@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>a080ecd20d8e02107f44057211099c7f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>{&#13;
+  "model": "gemma:2b",&#13;
+  "prompt": "Why is the sky above us ?  ",&#13;
+  "stream": false&#13;
+}</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>What do you call a fake noodle?
+
+A noodle-copia!</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 16:41:37</sys_created_on>
+        <sys_id>a080ecd20d8e02107f44057211099c7f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 16:45:50</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:31</sys_created_on>
+        <sys_id>d677e066970202d05f703dafe153afd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-10 09:41:37</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_d677e066970202d05f703dafe153afd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:31</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>

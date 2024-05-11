@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>bf932cda0d8e02107f44057211099cfb</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>Why is sky not Red</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>Sure, the provided filename is `c:\python\OllamaLangchain.py`. It appears to be a Python script related to the OllamaLangchain language model.
+
+Here's a breakdown of the filename and its potential purpose:
+
+* **c:** indicates the operating system, in this case, Windows.
+* **python:** indicates the programming language.
+* **OllamaLangchain.py:** is the actual script name.
+* **.py:** signifies that it's a Python script.
+
+The script could be used for various purposes related to the OllamaLangchain language model, such as:
+
+* **Model development:** It could contain the code for training and evaluating the language model.
+* **Data processing:** It could handle and preprocess data for the model.
+* **Inference:** It could perform inference on new text inputs to generate language outputs.
+* **Integration:** It could be used for integration with other tools and applications.
+
+Without further context about the surrounding code and the project, it's impossible to determine the exact purpose of the script. However, it's a potential module for working with the OllamaLangchain language model.</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 16:55:13</sys_created_on>
+        <sys_id>bf932cda0d8e02107f44057211099cfb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 16:56:50</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:32</sys_created_on>
+        <sys_id>1677e066970202d05f703dafe153afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-10 09:55:13</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_1677e066970202d05f703dafe153afdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:32</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>

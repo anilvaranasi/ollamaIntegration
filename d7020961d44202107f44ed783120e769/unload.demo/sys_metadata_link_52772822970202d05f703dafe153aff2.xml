@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>046548ae5cc202107f447a245d4d3d4e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>Tell me about greatest physicists of Africa?</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>**Notable Physicists from Africa:**
+
+**1. Albert Luyala (South Africa):**
+- Pioneer in condensed matter physics, particularly the behavior of complex fluids.
+- Led a research group at the University of Cape Town and served as the South African representative to the International Association of Physicists.
+
+**2. Nsikumbulo Dlamini (South Africa):**
+- Theoretical physicist known for his work on string theory and quantum gravity.
+- Co-recipient of the 2016 Nobel Prize in Physics for his contributions to theoretical physics.
+
+**3. Abdusalam Abdi (Somalia):**
+- Leading physicist at the Somali Institute of Technology.
+- Research focuses on nuclear physics, astrophysics, and particle physics.
+
+**4. Olufemi Awolowo (Nigeria):**
+- Professor of physics and deputy vice-chancellor for research at the University of Nigeria, Lagos.
+- Research interests include fluid dynamics, plasma physics, and cosmology.
+
+**5. Biko Msimanga (South Africa):**
+- Physicist and activist who played a significant role in the anti-apartheid movement.
+- Co-founder of the Desmond Tutu Foundation, which promotes education and empowerment.
+
+**6. Ngugi wa Thiong'o (Kenya):**
+- Leading physicist at the University of Nairobi.
+- Research focuses on condensed matter physics, materials science, and computational physics.
+
+**7. Mpho Maphisa (South Africa):**
+- Theoretical physicist known for his work on cosmology and astrophysics.
+- Currently serves as a professor of physics at the University of Witwatersrand.
+
+**8. Isaac Shamu (South Africa):**
+- Physicist and academic administrator at the University of South Africa.
+- Research interests include high-energy physics, astrophysics, and cosmology.
+
+**9. Yemi Owoye (Nigeria):**
+- Physicist and entrepreneur who made significant contributions to the development of the African Continental Integrated Transport (ACIT).
+- Founder of the African Institute for Mathematical, Physical and Engineering Research (AIMPEP).
+
+**10. Chigozi Obioha (Nigeria):**
+- Theoretical physicist whose research focuses on cosmology, astrophysics, and high-energy physics.
+- Currently serves as a professor at the University of Lagos.</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 09:21:32</sys_created_on>
+        <sys_id>046548ae5cc202107f447a245d4d3d4e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 09:28:10</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:31</sys_created_on>
+        <sys_id>52772822970202d05f703dafe153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-11 02:21:32</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_52772822970202d05f703dafe153aff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:31</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>
