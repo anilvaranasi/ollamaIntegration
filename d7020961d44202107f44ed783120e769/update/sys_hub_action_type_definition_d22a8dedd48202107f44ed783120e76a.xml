@@ -16,9 +16,9 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>callolllamaserver</internal_name>
-        <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record.prompt}}","label":"step➛Look Up Record step➛Prompt Record➛Prompt","type":"step","ref":"","reference_display":"Prompt","base_type":"string","parent_table_name":"x_snc_ollama_genai_prompt","column_name":"prompt","choices":null,"attributes":{}},{"name":"{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record}}","label":"step➛Look Up Record step➛Prompt Record","type":"step","ref":"x_snc_ollama_genai_prompt","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>e9cd26b1804202107f44b32beae7c511</master_snapshot>
-        <name>CallOlllamaServer</name>
+        <name>CallOllamaServer</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -30,14 +30,14 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d22a8dedd48202107f44ed783120e76a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>CallOlllamaServer</sys_name>
+        <sys_name>CallOllamaServer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d22a8dedd48202107f44ed783120e76a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:27:42</sys_updated_on>
+        <sys_updated_on>2024-05-11 11:47:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -65,17 +65,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 11:59:24</sys_created_on>
         <sys_id>f2bc41e5d4c202107f44ed783120e715</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:39:31</sys_updated_on>
-        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
+        <sys_updated_on>2024-05-11 07:44:35</sys_updated_on>
+        <value>{"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0"}</value>
         <variable display_value="Action Status">babc01e5d4c202107f44ed783120e7fc</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a^id=d22a8dedd48202107f44ed783120e76a"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=d22a8dedd48202107f44ed783120e76a^sys_idNOT INc4b94379800602107f44b32beae7c588,c4b94379800602107f44b32beae7c592,e99a8561d4c202107f44ed783120e73b"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=d22a8dedd48202107f44ed783120e76a^sys_idNOT IN304c3f860d4a02107f44057211099c9f,c4b94379800602107f44b32beae7c592,e99a8561d4c202107f44ed783120e73b"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</action>
-        <cid>4bf34a0b-82c1-4d60-8314-bf8b46b97f71</cid>
+        <action display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</action>
+        <cid>39343fa7-1000-42df-9d60-527626dbe9fa</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
@@ -83,65 +83,65 @@
         <inputs/>
         <inputs/>
         <label>Look Up Record step</label>
-        <order>2</order>
+        <order>1</order>
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:48</sys_created_on>
-        <sys_id>c4b94379800602107f44b32beae7c588</sys_id>
+        <sys_created_on>2024-05-10 14:03:15</sys_created_on>
+        <sys_id>304c3f860d4a02107f44057211099c9f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:48</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=c4b94379800602107f44b32beae7c588"/>
+    <sys_variable_value action="delete_multiple" query="document_key=304c3f860d4a02107f44057211099c9f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>c4b94379800602107f44b32beae7c588</document_key>
+        <document_key>304c3f860d4a02107f44057211099c9f</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:48</sys_created_on>
-        <sys_id>08b94379800602107f44b32beae7c590</sys_id>
+        <sys_created_on>2024-05-10 14:03:16</sys_created_on>
+        <sys_id>384c3f860d4a02107f44057211099ca7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:48</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
         <value>x_snc_ollama_genai_prompt</value>
         <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c4b94379800602107f44b32beae7c588"/>
+    <sys_element_mapping action="delete_multiple" query="id=304c3f860d4a02107f44057211099c9f"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conditions</field>
-        <id>c4b94379800602107f44b32beae7c588</id>
+        <id>304c3f860d4a02107f44057211099c9f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:48</sys_created_on>
-        <sys_id>84b94379800602107f44b32beae7c590</sys_id>
+        <sys_created_on>2024-05-10 14:03:16</sys_created_on>
+        <sys_id>b44c3f860d4a02107f44057211099ca7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:48</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
         <value>sys_id={{action.promptsysid}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>lookup_table_name</field>
-        <id>c4b94379800602107f44b32beae7c588</id>
+        <id>304c3f860d4a02107f44057211099c9f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:48</sys_created_on>
-        <sys_id>ccb94379800602107f44b32beae7c58f</sys_id>
+        <sys_created_on>2024-05-10 14:03:16</sys_created_on>
+        <sys_id>bc4c3f860d4a02107f44057211099ca6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:48</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
         <value/>
     </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=c4b94379800602107f44b32beae7c588"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=c4b94379800602107f44b32beae7c588"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=c4b94379800602107f44b32beae7c588"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=c4b94379800602107f44b32beae7c588"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4b94379800602107f44b32beae7c588"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=304c3f860d4a02107f44057211099c9f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=304c3f860d4a02107f44057211099c9f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=304c3f860d4a02107f44057211099c9f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=304c3f860d4a02107f44057211099c9f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_304c3f860d4a02107f44057211099c9f"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</action>
+        <action display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</action>
         <cid>605552c9-cca6-45c0-96ae-1ac0a7a40e0a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -157,10 +157,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 15:43:49</sys_created_on>
         <sys_id>c4b94379800602107f44b32beae7c592</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:49</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c4b94379800602107f44b32beae7c592"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -184,11 +184,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 15:43:49</sys_created_on>
         <sys_id>4cb94379800602107f44b32beae7c597</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:49</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value>{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}</value>
+        <value>{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -220,7 +220,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=c4b94379800602107f44b32beae7c592"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4b94379800602107f44b32beae7c592"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</action>
+        <action display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</action>
         <cid>4e450ceb-6f78-420f-90bb-5b11fb9d8cd5</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -229,17 +229,17 @@
         <inputs/>
         <inputs/>
         <label>REST step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 11:50:01</sys_created_on>
         <sys_id>e99a8561d4c202107f44ed783120e73b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 14:42:38</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e99a8561d4c202107f44ed783120e73b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -469,11 +469,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 11:50:02</sys_created_on>
         <sys_id>bd9a8561d4c202107f44ed783120e767</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 14:42:38</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{action.requestbody}}</value>
+        <value>{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record.prompt}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -612,175 +612,7 @@
     <sys_hub_step_ext_output action="delete_multiple" query="model=e99a8561d4c202107f44ed783120e73b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e99a8561d4c202107f44ed783120e73b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e99a8561d4c202107f44ed783120e73b"/>
-    <sys_hub_action_input action="delete_multiple" query="model=d22a8dedd48202107f44ed783120e76a^sys_idNOT IN6902b9e1d40a02107f44ed783120e72e,71b0ba39804202107f44b32beae7c540,79b0ba39804202107f44b32beae7c544"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c74db5b6-7838-49b1-bb0e-ce8780ac70d9</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>requestbody</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>requestbody</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</model>
-        <model_id>d22a8dedd48202107f44ed783120e76a</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-08 14:42:19</sys_created_on>
-        <sys_id>6902b9e1d40a02107f44ed783120e72e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:42</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6902b9e1d40a02107f44ed783120e72e"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4dcf948a-eac7-441d-bf15-d83c6c6339b0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>prompttable</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>prompttable</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</model>
-        <model_id>d22a8dedd48202107f44ed783120e76a</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:54:42</sys_created_on>
-        <sys_id>71b0ba39804202107f44b32beae7c540</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:42</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71b0ba39804202107f44b32beae7c540"/>
+    <sys_hub_action_input action="delete_multiple" query="model=d22a8dedd48202107f44ed783120e76a^sys_idNOT IN79b0ba39804202107f44b32beae7c544"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -821,12 +653,12 @@
         <label>promptsysid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</model>
+        <model display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</model>
         <model_id>d22a8dedd48202107f44ed783120e76a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a</name>
         <next_element/>
-        <order>3</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -844,14 +676,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:54:42</sys_created_on>
         <sys_id>79b0ba39804202107f44b32beae7c544</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:42</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -908,7 +740,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</model>
+        <model display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</model>
         <model_id>d22a8dedd48202107f44ed783120e76a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a</name>
@@ -931,14 +763,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 11:59:24</sys_created_on>
         <sys_id>b2bc41e5d4c202107f44ed783120e701</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:00:53</sys_updated_on>
+        <sys_updated_on>2024-05-11 07:44:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -995,7 +827,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</model>
+        <model display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</model>
         <model_id>d22a8dedd48202107f44ed783120e76a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a</name>
@@ -1043,7 +875,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d22a8dedd48202107f44ed783120e76a"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=d22a8dedd48202107f44ed783120e76a^sys_idNOT INfd9a8561d4c202107f44ed783120e7af"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</action_type_id>
+        <action_type_id display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-08 11:50:02</sys_created_on>
         <sys_id>fd9a8561d4c202107f44ed783120e7af</sys_id>
@@ -1058,61 +890,15 @@
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Response is not 200</label>
         <order>1</order>
-        <status>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"100200"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Error in API response"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","version":"1.0"}</status>
+        <status>{"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"100200"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Error in API response"}}},"version":"1.0"}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:54:44</sys_created_on>
         <sys_id>4eb0ba39804202107f44b32beae7c597</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:44</sys_updated_on>
+        <sys_updated_on>2024-05-11 07:44:36</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a^sys_idNOT IN3db0ba39804202107f44b32beae7c543,6d02b9e1d40a02107f44ed783120e732,b5b0ba39804202107f44b32beae7c547"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>prompttable</element>
-        <help/>
-        <hint/>
-        <label>prompttable</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:54:42</sys_created_on>
-        <sys_id>3db0ba39804202107f44b32beae7c543</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>prompttable</sys_name>
-        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_prompttable_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:42</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>requestbody</element>
-        <help/>
-        <hint/>
-        <label>requestbody</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-08 14:42:19</sys_created_on>
-        <sys_id>6d02b9e1d40a02107f44ed783120e732</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>requestbody</sys_name>
-        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_requestbody_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-08 14:42:19</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a^sys_idNOT INb5b0ba39804202107f44b32beae7c547"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>promptsysid</element>
         <help/>
@@ -1130,7 +916,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d22a8dedd48202107f44ed783120e76a_promptsysid_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:43</sys_updated_on>
         <url/>
@@ -1155,7 +941,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a___dont_treat_as_error___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 11:59:24</sys_updated_on>
         <url/>
@@ -1178,7 +964,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a___action_status___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-08 11:59:24</sys_updated_on>
         <url/>
@@ -1187,19 +973,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d22a8dedd48202107f44ed783120e76a^sys_idNOT INf2cd66b1804202107f44b32beae7c533"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</action_id>
+        <action_id display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f2cd66b1804202107f44b32beae7c533","name":"plan","plan_signature":null}}</plan>
-        <snapshot>3a9dcf31804602107f44b32beae7c5af</snapshot>
+        <snapshot>a94c7f860d4a02107f44057211099cf7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f2cd66b1804202107f44b32beae7c533</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:00:58</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1216,19 +1002,19 @@
         <description/>
         <flow_priority/>
         <internal_name>callolllamaserver</internal_name>
-        <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <label_cache>[{"name":"{{action.requestbody}}","label":"action➛requestbody","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c74db5b6-7838-49b1-bb0e-ce8780ac70d9"}},{"name":"{{action.prompttable}}","label":"action➛prompttable","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1a}}","label":"action➛variable1a","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.promptsysid}}","label":"action➛promptsysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}","label":"step➛Look Up Record step➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record.prompt}}","label":"step➛Look Up Record step➛Prompt Record➛Prompt","type":"step","ref":"","reference_display":"Prompt","base_type":"string","parent_table_name":"x_snc_ollama_genai_prompt","column_name":"prompt","choices":null,"attributes":{}},{"name":"{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record}}","label":"step➛Look Up Record step➛Prompt Record","type":"step","ref":"x_snc_ollama_genai_prompt","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>CallOlllamaServer</name>
+        <name>CallOllamaServer</name>
         <natlang/>
         <outputs/>
-        <parent_action display_value="CallOlllamaServer">d22a8dedd48202107f44ed783120e76a</parent_action>
+        <parent_action display_value="CallOllamaServer">d22a8dedd48202107f44ed783120e76a</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9cd26b1804202107f44b32beae7c511</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1236,7 +1022,7 @@
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
+        <sys_updated_on>2024-05-11 07:44:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1250,10 +1036,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>bdcd26b1804202107f44b32beae7c53d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
-        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
+        <sys_updated_on>2024-05-11 07:44:39</sys_updated_on>
+        <value>{"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0"}</value>
         <variable display_value="Action Status">b9cd26b1804202107f44b32beae7c532</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1271,9 +1057,9 @@
         <variable display_value="Don't Treat as Error">71cd26b1804202107f44b32beae7c537</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511^id=e9cd26b1804202107f44b32beae7c511"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=e9cd26b1804202107f44b32beae7c511^sys_idNOT IN2cb98379800602107f44b32beae7c584,64b98379800602107f44b32beae7c57e,7dcd26b1804202107f44b32beae7c51a"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=e9cd26b1804202107f44b32beae7c511^sys_idNOT IN2cb98379800602107f44b32beae7c584,7dcd26b1804202107f44b32beae7c51a,e14c7f860d4a02107f44057211099cca"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</action>
+        <action display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</action>
         <cid>605552c9-cca6-45c0-96ae-1ac0a7a40e0a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1289,10 +1075,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 15:43:51</sys_created_on>
         <sys_id>2cb98379800602107f44b32beae7c584</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cb98379800602107f44b32beae7c584"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1316,11 +1102,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 15:43:51</sys_created_on>
         <sys_id>24b98379800602107f44b32beae7c589</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value>{{step[4bf34a0b-82c1-4d60-8314-bf8b46b97f71].record}}</value>
+        <value>{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -1352,74 +1138,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=2cb98379800602107f44b32beae7c584"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2cb98379800602107f44b32beae7c584"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</action>
-        <cid>4bf34a0b-82c1-4d60-8314-bf8b46b97f71</cid>
-        <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Look Up Record step</label>
-        <order>2</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:51</sys_created_on>
-        <sys_id>64b98379800602107f44b32beae7c57e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=64b98379800602107f44b32beae7c57e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>64b98379800602107f44b32beae7c57e</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:51</sys_created_on>
-        <sys_id>28b98379800602107f44b32beae7c583</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
-        <value>x_snc_ollama_genai_prompt</value>
-        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=64b98379800602107f44b32beae7c57e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>64b98379800602107f44b32beae7c57e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:51</sys_created_on>
-        <sys_id>a4b98379800602107f44b32beae7c583</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value>sys_id={{action.promptsysid}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>lookup_table_name</field>
-        <id>64b98379800602107f44b32beae7c57e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 15:43:51</sys_created_on>
-        <sys_id>e0b98379800602107f44b32beae7c583</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 15:43:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=64b98379800602107f44b32beae7c57e"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=64b98379800602107f44b32beae7c57e"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=64b98379800602107f44b32beae7c57e"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=64b98379800602107f44b32beae7c57e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_64b98379800602107f44b32beae7c57e"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</action>
+        <action display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</action>
         <cid>4e450ceb-6f78-420f-90bb-5b11fb9d8cd5</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1428,17 +1147,17 @@
         <inputs/>
         <inputs/>
         <label>REST step</label>
-        <order>1</order>
+        <order>2</order>
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>7dcd26b1804202107f44b32beae7c51a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7dcd26b1804202107f44b32beae7c51a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1654,11 +1373,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>7dcd26b1804202107f44b32beae7c529</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{{action.requestbody}}</value>
+        <value>{{step[39343fa7-1000-42df-9d60-527626dbe9fa].record.prompt}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -1797,175 +1516,74 @@
     <sys_hub_step_ext_output action="delete_multiple" query="model=7dcd26b1804202107f44b32beae7c51a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7dcd26b1804202107f44b32beae7c51a"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7dcd26b1804202107f44b32beae7c51a"/>
-    <sys_hub_action_input action="delete_multiple" query="model=e9cd26b1804202107f44b32beae7c511^sys_idNOT IN62b0fa39804202107f44b32beae7c544,71cd26b1804202107f44b32beae7c515,eab0fa39804202107f44b32beae7c547"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4dcf948a-eac7-441d-bf15-d83c6c6339b0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>prompttable</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>prompttable</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</model>
-        <model_id>e9cd26b1804202107f44b32beae7c511</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:54:45</sys_created_on>
-        <sys_id>62b0fa39804202107f44b32beae7c544</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=62b0fa39804202107f44b32beae7c544"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c74db5b6-7838-49b1-bb0e-ce8780ac70d9</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>requestbody</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>requestbody</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</model>
-        <model_id>e9cd26b1804202107f44b32beae7c511</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
-        <next_element/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</action>
+        <cid>39343fa7-1000-42df-9d60-527626dbe9fa</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
         <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:41:52</sys_created_on>
-        <sys_id>71cd26b1804202107f44b32beae7c515</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_created_on>2024-05-10 14:03:19</sys_created_on>
+        <sys_id>e14c7f860d4a02107f44057211099cca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71cd26b1804202107f44b32beae7c515"/>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e14c7f860d4a02107f44057211099cca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e14c7f860d4a02107f44057211099cca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:03:19</sys_created_on>
+        <sys_id>654c7f860d4a02107f44057211099ccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
+        <value>x_snc_ollama_genai_prompt</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e14c7f860d4a02107f44057211099cca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e14c7f860d4a02107f44057211099cca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:03:19</sys_created_on>
+        <sys_id>e14c7f860d4a02107f44057211099ccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{action.promptsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>e14c7f860d4a02107f44057211099cca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 14:03:19</sys_created_on>
+        <sys_id>214c7f860d4a02107f44057211099ccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 14:03:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=e14c7f860d4a02107f44057211099cca"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e14c7f860d4a02107f44057211099cca"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e14c7f860d4a02107f44057211099cca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e14c7f860d4a02107f44057211099cca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e14c7f860d4a02107f44057211099cca"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e9cd26b1804202107f44b32beae7c511^sys_idNOT INeab0fa39804202107f44b32beae7c547"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2006,12 +1624,12 @@
         <label>promptsysid</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</model>
+        <model display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</model>
         <model_id>e9cd26b1804202107f44b32beae7c511</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
         <next_element/>
-        <order>3</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2029,14 +1647,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:54:45</sys_created_on>
         <sys_id>eab0fa39804202107f44b32beae7c547</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
+        <sys_updated_on>2024-05-10 14:03:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2093,7 +1711,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</model>
+        <model display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</model>
         <model_id>e9cd26b1804202107f44b32beae7c511</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511</name>
@@ -2116,14 +1734,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>71cd26b1804202107f44b32beae7c537</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:00:56</sys_updated_on>
+        <sys_updated_on>2024-05-11 07:44:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2180,7 +1798,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</model>
+        <model display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</model>
         <model_id>e9cd26b1804202107f44b32beae7c511</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511</name>
@@ -2228,7 +1846,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e9cd26b1804202107f44b32beae7c511"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e9cd26b1804202107f44b32beae7c511^sys_idNOT IN3dcd26b1804202107f44b32beae7c53f"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="CallOlllamaServer">e9cd26b1804202107f44b32beae7c511</action_type_id>
+        <action_type_id display_value="CallOllamaServer">e9cd26b1804202107f44b32beae7c511</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-09 13:41:52</sys_created_on>
         <sys_id>3dcd26b1804202107f44b32beae7c53f</sys_id>
@@ -2236,22 +1854,22 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3dcd26b1804202107f44b32beae7c53f^sys_idNOT INba9dcf31804602107f44b32beae7c5ae"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3dcd26b1804202107f44b32beae7c53f^sys_idNOT IN2c3f63965c4202107f447a245d4d3db5"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 2024-05-09 06:41:52">3dcd26b1804202107f44b32beae7c53f</action_status_metadata_id>
         <condition>{{step[4e450ceb-6f78-420f-90bb-5b11fb9d8cd5].status_code}}!=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Response is not 200</label>
         <order>1</order>
-        <status>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"100200"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Error in API response"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","version":"1.0"}</status>
+        <status>{"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"100200"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Error in API response"}}},"version":"1.0"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 16:00:56</sys_created_on>
-        <sys_id>ba9dcf31804602107f44b32beae7c5ae</sys_id>
+        <sys_created_on>2024-05-11 07:44:39</sys_created_on>
+        <sys_id>2c3f63965c4202107f447a245d4d3db5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 16:00:56</sys_updated_on>
+        <sys_updated_on>2024-05-11 07:44:39</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511^sys_idNOT IN2ab0fa39804202107f44b32beae7c54a,31cd26b1804202107f44b32beae7c519,aeb0fa39804202107f44b32beae7c546"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511^sys_idNOT IN2ab0fa39804202107f44b32beae7c54a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>promptsysid</element>
         <help/>
@@ -2269,53 +1887,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_promptsysid_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>requestbody</element>
-        <help/>
-        <hint/>
-        <label>requestbody</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:41:52</sys_created_on>
-        <sys_id>31cd26b1804202107f44b32beae7c519</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>requestbody</sys_name>
-        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_requestbody_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>prompttable</element>
-        <help/>
-        <hint/>
-        <label>prompttable</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-09 13:54:45</sys_created_on>
-        <sys_id>aeb0fa39804202107f44b32beae7c546</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>prompttable</sys_name>
-        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_prompttable_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:54:45</sys_updated_on>
         <url/>
@@ -2340,7 +1912,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511___dont_treat_as_error___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
         <url/>
@@ -2363,7 +1935,7 @@
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e9cd26b1804202107f44b32beae7c511___action_status___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
         <url/>

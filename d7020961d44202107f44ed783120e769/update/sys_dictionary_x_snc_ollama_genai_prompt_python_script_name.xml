@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="response" table="x_snc_ollama_genai_prompt">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="python_script_name" table="x_snc_ollama_genai_prompt">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Response</column_label>
+        <column_label>Python Script Name</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>c:\python\OllamaLangchain.py</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>response</element>
+        <element>python_script_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -29,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>6000</max_length>
+        <max_length>40</max_length>
         <name>x_snc_ollama_genai_prompt</name>
         <next_element/>
         <primary>false</primary>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-08 11:15:30</sys_created_on>
-        <sys_name>Response</sys_name>
+        <sys_created_on>2024-05-10 17:41:14</sys_created_on>
+        <sys_name>Python Script Name</sys_name>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_ollama_genai_prompt_response</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_ollama_genai_prompt_python_script_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-11 09:16:44</sys_updated_on>
+        <sys_updated_on>2024-05-10 17:41:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
