@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>4222c06e5cc202107f447a245d4d3db8</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>Tell me about last 10 years of weather history in India based on data you have handy ?</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>**Last 10 Years of Weather History in India**
+
+**Overall Pattern:**
+
+* The last 10 years have been characterized by a mixed pattern of weather conditions, with some regions experiencing normal rainfall, others experiencing drought, and some experiencing extreme weather events.
+
+**Key Highlights:**
+
+* **Record Rainfall:** India has received above-average rainfall in several parts of the country, particularly in the southern states of Kerala, Tamil Nadu, and Andhra Pradesh. This has led to a significant reduction in drought-affected areas and increased agricultural productivity.
+* **Extreme Heat:** Heat waves have become more frequent and intense, particularly in the western and central regions. The state of Rajasthan has faced severe heat waves, with record temperatures and deaths.
+* **Drought:** Parts of the country, particularly in the northwest and north-central regions, have experienced severe droughts, resulting in water shortages and crop failures.
+* **Cyclone Activity:** The Bay of Bengal and the Arabian Sea have witnessed an increase in cyclone activity in recent years, bringing heavy rainfall and storm surges to different parts of the country.
+* **La Ni�a-Southern Oscillation:** The Indian Ocean has experienced a shift in weather patterns, with an increase in La Ni�a events. This has resulted in wetter-than-average conditions in the Bay of Bengal and the Arabian Sea, bringing more rainfall to India.
+
+**Specific Weather Events:**
+
+* **2019-2020:&amp;lt;/strong&amp;gt; A severe drought affected several parts of the country, particularly in the central and northern regions.
+* **2019:&amp;lt;/strong&amp;gt; A severe heat wave in the western and central regions caused widespread crop failures and water shortages.
+* **2022:&amp;lt;/strong&amp;gt; A devastating cyclone named Hudhud made landfall in the southern state of Gujarat, causing severe damage and loss of life.
+
+**Climate Change Impacts:**
+
+* India is one of the most vulnerable countries to the effects of climate change.
+* Rising temperatures, changes in precipitation patterns, and increasing extreme weather events are posing significant challenges to agriculture, water resources, and public health.
+* Climate change is also expected to exacerbate droughts, floods, and other environmental issues in the country.
+
+**Additional Points:**
+
+* India's weather patterns are also influenced by seasonal variations, with the monsoon season playing a crucial role in determining the availability of water.
+* The country is experiencing a shift towards a more humid climate, with increased rainfall in some regions and droughts in others.
+* The Indian Meteorological Department (IMD) provides regular weather forecasts and climate projections for the country.</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 09:07:29</sys_created_on>
+        <sys_id>4222c06e5cc202107f447a245d4d3db8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 09:14:09</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:31</sys_created_on>
+        <sys_id>5a77e066970202d05f703dafe153afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-11 02:07:29</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_5a77e066970202d05f703dafe153afc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:31</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>

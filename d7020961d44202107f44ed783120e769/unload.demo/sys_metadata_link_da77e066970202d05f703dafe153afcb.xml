@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>7645609e0d8e02107f44057211099cc7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>Why is sky not Green</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>The premise of the question is incorrect. The sky is not a color G. It is a vast expanse of blue, white, and black colors due to scattering of sunlight by tiny particles in the Earth's atmosphere.</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 17:02:32</sys_created_on>
+        <sys_id>7645609e0d8e02107f44057211099cc7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 17:04:19</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:31</sys_created_on>
+        <sys_id>da77e066970202d05f703dafe153afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-10 10:02:32</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_da77e066970202d05f703dafe153afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:31</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>

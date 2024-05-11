@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>3d89fc9a0d4242107f44057211099c37</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ollama_genai_prompt">
+    <x_snc_ollama_genai_prompt action="INSERT_OR_UPDATE">
+        <apitype>command</apitype>
+        <model>gemma:2b</model>
+        <prompt>Tell me about weather prediction tomorrow in Gachibowli Hyderabad India</prompt>
+        <python_script_name>c:\python\OllamaLangchain.py</python_script_name>
+        <response>Sure, here is an overview of what I can tell you about:
+
+**What is Tell Me About?**
+
+Tell Me About is a language learning app that uses AI to generate personalized language lessons based on your interests and learning style. The app utilizes a conversational AI interface called "Buddy" that asks you questions about your background, hobbies, and learning goals to create customized lessons that are tailored to your specific needs.
+
+**Features:**
+
+* **Conversational AI Interface:** Buddy is a friendly and engaging conversational AI that engages in natural and realistic conversations.
+* **Personalized Lessons:** Based on your interests, goals, and learning style, the app provides tailored lessons and practice exercises.
+* **Immersive Learning Environment:** The app immerses you in different languages through interactive simulations, audio lessons, and cultural content.
+* **Adaptive Learning:** The app adapts to your progress and provides additional challenges or support as needed.
+* **Fun and Engaging:** The app uses a gamified approach to language learning, making it enjoyable and effective.
+
+**Benefits:**
+
+* **Personalized Learning:** Get customized lessons that cater to your unique learning needs.
+* **Immersive Experience:** Enhance your language skills through interactive simulations and cultural immersion.
+* **Adaptive Learning:** Get challenges adjusted to your progress, ensuring sustainable growth.
+* **Fun and Engaging:** Make language learning a fun and enjoyable experience.
+* **24/7 Availability:** Access lessons and practice exercises anytime, anywhere.
+
+**Target Audience:**
+
+Tell Me About is ideal for individuals of all ages and learning levels who want to learn a new language. The app is particularly beneficial for those who prefer a conversational and interactive approach to learning.
+
+**Overall, Tell Me About is a comprehensive language learning app that provides personalized lessons, an immersive learning environment, and adaptive support to help you achieve your language learning goals.**</response>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 18:30:57</sys_created_on>
+        <sys_id>3d89fc9a0d4242107f44057211099c37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 18:37:50</sys_updated_on>
+    </x_snc_ollama_genai_prompt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:50:31</sys_created_on>
+        <sys_id>d277e066970202d05f703dafe153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-05-10 11:30:57</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>sys_metadata_link_d277e066970202d05f703dafe153afc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:50:31</sys_updated_on>
+        <tablename>x_snc_ollama_genai_prompt</tablename>
+    </sys_metadata_link>
+</record_update>
