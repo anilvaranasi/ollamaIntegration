@@ -4,7 +4,7 @@
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
         <description/>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>use this module for ollama</hint>
         <name/>
         <order>100</order>
         <roles>admin,x_snc_ollama_genai.ollama_prompt_user</roles>
@@ -14,7 +14,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db20c8de0d4a02107f44057211099c3e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Ollama</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
         <sys_update_name>sys_app_application_db20c8de0d4a02107f44057211099c3e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-10 17:47:38</sys_updated_on>
+        <sys_updated_on>2024-05-25 09:28:09</sys_updated_on>
         <title>Ollama</title>
         <view_name/>
     </sys_app_application>
