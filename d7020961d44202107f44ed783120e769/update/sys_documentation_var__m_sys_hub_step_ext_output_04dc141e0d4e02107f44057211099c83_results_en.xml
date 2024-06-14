@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="__action_status__" label="Action Status" language="en" table="var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a">
+    <sys_documentation element="results" label="results" language="en" table="var__m_sys_hub_step_ext_output_04dc141e0d4e02107f44057211099c83">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>__action_status__</element>
+            <element>results</element>
             <help/>
             <hint/>
-            <label>Action Status</label>
+            <label>results</label>
             <language>en</language>
-            <name>var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a</name>
+            <name>var__m_sys_hub_step_ext_output_04dc141e0d4e02107f44057211099c83</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-08 11:59:24</sys_created_on>
+            <sys_created_on>2024-05-10 16:25:28</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Action Status</sys_name>
+            <sys_name>results</sys_name>
             <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
             <sys_policy/>
             <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d22a8dedd48202107f44ed783120e76a___action_status___en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_04dc141e0d4e02107f44057211099c83_results_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-08 11:59:24</sys_updated_on>
+            <sys_updated_on>2024-05-10 16:25:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

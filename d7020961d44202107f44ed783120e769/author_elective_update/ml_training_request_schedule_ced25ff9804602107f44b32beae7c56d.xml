@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="Closed alert similarity">f8d74bdddbc18850a6d183243996194d</ml_capability_definition>
+        <ml_solution/>
+        <name>Closed alert similarity</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-31 00:00:00</run_period>
+        <run_start>2024-05-09 16:23:49</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 16:23:49</sys_created_on>
+        <sys_id>ced25ff9804602107f44b32beae7c56d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed alert similarity</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_update_name>ml_training_request_schedule_ced25ff9804602107f44b32beae7c56d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 16:23:49</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</application>
+        <file_path/>
+        <instance_id>718e66cfdbf35d501955c59705961952</instance_id>
+        <instance_name>dev146776</instance_name>
+        <name>ml_training_request_schedule_ced25ff9804602107f44b32beae7c56d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule"><ml_training_request_schedule action="INSERT_OR_UPDATE"><active>true</active><business_calendar/><capability/><condition/><conditional>false</conditional><entered_time/><max_drift/><ml_capability_definition display_value="Closed alert similarity">f8d74bdddbc18850a6d183243996194d</ml_capability_definition><ml_solution/><name>Closed alert similarity</name><offset/><offset_type>0</offset_type><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_period>1970-01-31 00:00:00</run_period><run_start>2024-05-09 16:23:49</run_start><run_time/><run_type>periodically</run_type><solution_definition/><sys_class_name>ml_training_request_schedule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-09 16:23:49</sys_created_on><sys_id>ced25ff9804602107f44b32beae7c56d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Closed alert similarity</sys_name><sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package><sys_policy/><sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope><sys_update_name>ml_training_request_schedule_ced25ff9804602107f44b32beae7c56d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-09 16:23:49</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></ml_training_request_schedule></record_update>]]></payload>
+        <payload_hash>241226269</payload_hash>
+        <record_name>Closed alert similarity</record_name>
+        <reverted_from/>
+        <source>b9b317f99702ca905f703dafe153af1c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 16:27:40</sys_created_on>
+        <sys_id>eeb357f99702ca905f703dafe153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f5e2e8df30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 16:27:40</sys_updated_on>
+        <type>Training Request Schedule</type>
+        <update_guid>aeb357f9aa02ca9032da9695872cab78</update_guid>
+        <update_guid_history>aeb357f9aa02ca9032da9695872cab78:241226269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Closed alert similarity">6ba07ffe971202105f703dafe153af2b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-25 07:23:47</sys_created_on>
+        <sys_db_object display_value="" name="ml_training_request_schedule">ml_training_request_schedule</sys_db_object>
+        <sys_id>0f764c8799ed4bae80f5d00669f538a4</sys_id>
+        <sys_metadata>ced25ff9804602107f44b32beae7c56d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed alert similarity</sys_name>
+        <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
+        <sys_scope_delete display_value="">382777f58b184888b3cbb61eab20c640</sys_scope_delete>
+        <sys_update_name>ml_training_request_schedule_ced25ff9804602107f44b32beae7c56d</sys_update_name>
+        <sys_update_version display_value="ml_training_request_schedule_ced25ff9804602107f44b32beae7c56d">eeb357f99702ca905f703dafe153af78</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 07:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

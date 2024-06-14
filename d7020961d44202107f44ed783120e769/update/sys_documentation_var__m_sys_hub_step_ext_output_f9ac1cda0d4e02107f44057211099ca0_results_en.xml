@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="requestbody" label="requestbody" language="en" table="var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511">
+    <sys_documentation element="results" label="results" language="en" table="var__m_sys_hub_step_ext_output_f9ac1cda0d4e02107f44057211099ca0">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>requestbody</element>
+            <element>results</element>
             <help/>
             <hint/>
-            <label>requestbody</label>
+            <label>results</label>
             <language>en</language>
-            <name>var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511</name>
+            <name>var__m_sys_hub_step_ext_output_f9ac1cda0d4e02107f44057211099ca0</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-09 13:41:52</sys_created_on>
+            <sys_created_on>2024-05-10 16:24:47</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>requestbody</sys_name>
+            <sys_name>results</sys_name>
             <sys_package display_value="Ollama GenAI" source="x_snc_ollama_genai">d7020961d44202107f44ed783120e769</sys_package>
             <sys_policy/>
             <sys_scope display_value="Ollama GenAI">d7020961d44202107f44ed783120e769</sys_scope>
-            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9cd26b1804202107f44b32beae7c511_requestbody_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f9ac1cda0d4e02107f44057211099ca0_results_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-09 13:41:52</sys_updated_on>
+            <sys_updated_on>2024-05-10 16:24:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
