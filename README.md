@@ -20,6 +20,13 @@ llama3:latest   a6990ed6be41    4.7 GB  25 hours ago
 mistral:latest  61e88e884507    4.1 GB  23 hours ago
 phi3:latest     a2c89ceaed85    2.3 GB  26 hours ago
 
+Download gguf and use ModelFile to convert that to ollama
+if you would like to download gguf file for this model : https://huggingface.co/mradermacher/granite-3b-code-instruct-128k-i1-GGUF/blob/main/granite-3b-code-instruct-128k.i1-IQ1_M.gguf
+Create a model file with name as Modelfile
+Contents of Modelfile
+FROM /path/to/file.gguf
+
+
 Run a model using ollama run gemma:2b
 Once model starts running it gives a prompt to interact with the model, enter a sample text to test the model
 ![image](https://github.com/anilvaranasi/ollamaIntegration/assets/29941323/43c49ce4-84f9-4dce-a4b8-3a15935695fe)
