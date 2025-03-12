@@ -25,7 +25,7 @@ if you would like to download gguf file for this model : https://huggingface.co/
 Create a model file with name as Modelfile
 Contents of Modelfile
 FROM ./models/granitecode.gguf
-ollama create Modelfile
+C:\ollama>ollama create granitecode -f Modelfile
 
 
 Run a model using ollama run gemma:2b
