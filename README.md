@@ -24,7 +24,8 @@ Download gguf and use ModelFile to convert that to ollama
 if you would like to download gguf file for this model : https://huggingface.co/mradermacher/granite-3b-code-instruct-128k-i1-GGUF/blob/main/granite-3b-code-instruct-128k.i1-IQ1_M.gguf
 Create a model file with name as Modelfile
 Contents of Modelfile
-FROM /path/to/file.gguf
+FROM ./models/granitecode.gguf
+ollama create Modelfile
 
 
 Run a model using ollama run gemma:2b
